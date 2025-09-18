@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 # ======================
 # Load model + columns + data
 # ======================
-model = pickle.load(open("Model1/model1.pkl", "rb"))
-columns = pickle.load(open("Model1/columns.pkl", "rb"))
-data = pickle.load(open("Model1/data.pkl", "rb"))   # cleaned dataset
+model = pickle.load(open("Model2/model1.pkl", "rb"))
+columns = pickle.load(open("Model2/columns.pkl", "rb"))
+data = pickle.load(open("Model2/data.pkl", "rb"))   # cleaned dataset
 
 st.title("📈 Stock Price Predictor")
 
@@ -54,4 +54,5 @@ ax.set_title("Close Price Over Time")
 ax.set_xlabel("Date")
 ax.set_ylabel("Close Price")
 st.pyplot(fig)
+
 
