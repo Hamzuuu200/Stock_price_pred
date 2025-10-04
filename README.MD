@@ -47,7 +47,7 @@ streamlit run app.py
 
 ```
 📦 stock-price-prediction
- ┣ 📜 app.py              # Streamlit app file
+ ┣ 📜  Streamlit_web_app.py              # Streamlit app file
  ┣ 📜 model.pkl           # Trained ML model
  ┣ 📜 stock_data.csv      # Sample dataset
  ┣ 📜 requirements.txt    # Dependencies
@@ -56,12 +56,7 @@ streamlit run app.py
 
 ---
 
-## 🌐 Deployment
 
-This app is deployed on **Streamlit Cloud** and can be accessed here:
-👉 [Live App Link](https://your-streamlit-app-url.streamlit.app)
-
----
 
 ## 📊 Example Output
 
@@ -83,3 +78,4 @@ This app is deployed on **Streamlit Cloud** and can be accessed here:
 ---
 
 ✍️ **Author:** Muhammad Hamza
+
