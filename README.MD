@@ -47,7 +47,7 @@ streamlit run app.py
 
 ```
 📦 stock-price-prediction
- ┣ 📜 Streamlit_web_app.py              # Streamlit app file
+ ┣ 📜 Streamlit_web_app.py  # Streamlit app file
  ┣ 📜 model.pkl           # Trained ML model
  ┣ 📜 requirements.txt    # Dependencies
  ┗ 📜 README.md           # Project documentation
